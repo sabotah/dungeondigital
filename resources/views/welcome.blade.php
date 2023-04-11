@@ -103,9 +103,10 @@
                 <h2>A <i><u>very</u></i> simple and <b>~Completely Free~</b> Tabletop RPG Dungeon Creator and Campaign Manager</h2>
                 <h3>With DM and Character Concurrent Connectivity - More info <a href="https://www.patreon.com/dungeondigital" target="_blank">Here</a></h3>
                 <h4 class="col-md-12"><a href="/register">Register</a> to Try it out!</h4><br>
-                <a href="https://www.patreon.com/dungeondigital"><img height=40 src="{{url('/img/Patreon-Icon_Primary.png')}}"></a>
-                        <a href="https://discord.gg/KcQeXRm"><img height=45 src="{{url('/img/Discord-Logo-Color.png')}}"></a>
-                        <a href="https://www.reddit.com/r/dungeondigital"><img height=40 src="{{url('/img/Reddit_Mark_OnWhite.png')}}"></a>
+                <a href="https://github.com/sabotah/dungeondigital" target="_blank"><img height=50 src="{{url('/img/GitHub-Mark.png')}}"></a>
+                <a href="https://www.patreon.com/dungeondigital" target="_blank"><img height=40 src="{{url('/img/Patreon-Icon_Primary.png')}}"></a>
+                        <a href="https://discord.gg/KcQeXRm"  target="_blank"><img height=45 src="{{url('/img/Discord-Logo-Color.png')}}"></a>
+                        <a href="https://www.reddit.com/r/dungeondigital"  target="_blank"><img height=40 src="{{url('/img/Reddit_Mark_OnWhite.png')}}"></a>
 
 
             </div>

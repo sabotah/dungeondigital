@@ -60,9 +60,10 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="pull-right">
-                            <a href="https://www.patreon.com/dungeondigital"><img height=30 src="{{url('/img/Patreon-Icon_Primary.png')}}"></a>
-                        <a href="https://discord.gg/KcQeXRm" style="margin-left: 10px; margin-right: 10px"><img height=40 src="{{url('/img/Discord-Logo-Color.png')}}"></a>
-                        <a href="https://www.reddit.com/r/dungeondigital"><img height=33 src="{{url('/img/Reddit_Mark_OnWhite.png')}}"></a>
+                        <a href="https://github.com/sabotah/dungeondigital" target="_blank"><img height=40 src="{{url('/img/GitHub-Mark.png')}}"></a>
+                            <a href="https://www.patreon.com/dungeondigital" target="_blank"><img height=30 src="{{url('/img/Patreon-Icon_Primary.png')}}"></a>
+                        <a href="https://discord.gg/KcQeXRm" style="margin-left: 10px; margin-right: 10px" target="_blank"><img height=40 src="{{url('/img/Discord-Logo-Color.png')}}"></a>
+                        <a href="https://www.reddit.com/r/dungeondigital" target="_blank"><img height=33 src="{{url('/img/Reddit_Mark_OnWhite.png')}}"></a>
 
                         
                         </li>

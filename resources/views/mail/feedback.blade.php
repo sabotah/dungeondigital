@@ -1,0 +1,3 @@
+{!! $content !!}
+<br>
+From {!! $fromemail !!}

@@ -1,0 +1,163 @@
+body {
+    background-color: transparent;
+/*    filter: brightness(30%);
+    filter: contrast(20%);*/
+    /*opacity: 0.7;*/
+}
+
+.dashrow {
+ 	margin-top:100px;
+ }
+
+ .dashbox, .dashbox:link, .dashbox:visited, .dashbox:active {
+ 	padding: 50px;
+ 	border: 1px solid;
+ 	margin-right: 20px;
+ 	font-style: none;
+ 	text-decoration: none;
+ 	color: black;
+ 	height: 182px;
+ 	display: none;
+ }
+
+ .misadventurebox {
+ 	text-align: right;
+ 	padding-right: 45px;
+ }
+
+ .swordicon {
+ 	display: none;
+ }
+
+/*.grid { margin:1em auto; border-collapse:collapse }
+
+
+.grid td {
+    cursor:pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px
+}
+
+.grid td.clicked {
+    background-color:yellow;
+    font-weight:bold; color:red;
+}*/
+
+#areagrid td, #areagridedit td,#objectpreview table td {
+    width:40px;
+    height:40px;
+    text-align:center;
+    vertical-align:middle;
+    /*background-color:#ccc;*/
+    border:1px solid transparent;
+
+}
+
+#areagrid td.highlighted, #areagridedit td.highlighted {
+    background-color:#999;
+}
+
+#areagrid td.hovering, #areagridedit td.hovering {
+    background-color:white;
+}
+
+.arealist, .roomlist, .campaignlist, .actionpanel, .doorlist {
+	height: 50px;
+}
+
+.arealist li, .roomlist li, .campaignlist li, .actionpanelicons li, .doorlist li, .foundcharacterslist li {
+	margin-right: 20px;
+	float:left;
+	text-decoration: none;
+	list-style: none;
+}
+
+.hiddendialog {
+	display: none;
+}
+
+.actionpanel {
+	background-color: white;
+    border: 1px solid black;
+}
+
+.actionpanelicons li {
+	font-size: 30px;
+}
+
+.campaigninlist {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+#areagrid {
+    /*background: url("../img/maptexture.png") no-repeat;*/
+    /*background-size: auto 2000px;*/
+    /*background-size: 900px 800px;*/
+/*    height: 800px;
+    width: 900px;*/
+    border: none;
+    background-color: transparent;
+    width: 3000px;
+    height: 3000px;
+}
+
+.floatingmapcontainer {
+    background-color: transparent;
+}
+
+#app {
+    background-color: transparent;
+}
+
+#areagrid td.door {
+    border-width: 2px;
+    border-color: black;
+}
+
+#areagrid td.doorlocked {
+    border-width: 4px;
+    border-color: black;
+}
+
+#areagrid td.doorhidden {
+    border-style: dashed;
+    border-color: black;
+}
+
+
+
+#areagrid td.doortop {
+    /*border-top: 2px black;*/
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#areagrid td.doorright {
+    /*border-right: 2px black;*/
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#areagrid td.doorleft {
+    /*border-left: 2px black;*/
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#areagrid td.doorbottom {
+    /*border-bottom: 2px black;*/
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+.campaignbuttons {
+	margin-bottom: 20px;
+}

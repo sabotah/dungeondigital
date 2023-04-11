@@ -1,0 +1,525 @@
+/* @import url(https://fonts.googleapis.com/css?family=Cormorant+Infant|Gugi|Oldenburg|Hind); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Gugi&family=Hind+Siliguri:wght@300&display=swap');
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.navbar {
+    background-color:white;
+    margin-bottom:40px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.navbar-brand, .title,.dashrow, h1, h2, h3, h4, h5 {
+    font-family: 'EB Garamond', serif;
+    font-weight:bold;
+}
+
+.btn-success {
+    background-color: #2f4427;
+    border: darkgrey;
+}
+
+.btn-danger {
+    background-color: #581111;
+    border: #691b22;
+}
+
+.btn-primary {
+    background-color: #5a5050;
+    border: black;
+}
+
+.navbar-nav li {
+    margin-right: 5px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.footer {
+    background-color: grey;
+}
+
+.footer a {
+    color:black;
+}
+
+.characterbutton, .campaignbutton {
+    margin-top:10px;
+}
+
+.btn {
+    font-size: 0.8rem;
+}
+
+.mainpanels, .initiativepanel {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mainpanels {
+    position: relative;
+}
+
+.digitalfont {
+    font-family: 'Gugi', cursive;
+}
+
+.dashrow {
+ 	margin-top:50px;
+ }
+
+ .dashbox, .dashbox:link, .dashbox:visited, .dashbox:active {
+ 	padding: 50px;
+ 	border: 1px solid;
+ 	margin-right: 20px;
+ 	font-style: none;
+ 	text-decoration: none;
+ 	color: black;
+ 	height: 182px;
+ 	display: none;
+ }
+
+ .misadventurebox {
+ 	text-align: right;
+ 	padding-right: 45px;
+ }
+
+ .swordicon {
+ 	display: none;
+ }
+
+.actionpanelicons {
+    /*height:60px;*/
+}
+
+.actionpanelicons button {
+    font-size:0.6rem;
+}
+
+ .gridcontainer {
+    position: relative;
+    width: 100%;
+    /*min-height:1000px;*/
+    border: 1px solid;
+}
+
+.roomiconname {
+    color: white;
+    font-size: 0.4em;
+}
+
+.showgridlines {
+    border: 1px solid white;
+}
+
+/*.grid { margin:1em auto; border-collapse:collapse }
+
+
+.grid td {
+    cursor:pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px
+}
+
+.grid td.clicked {
+    background-color:yellow;
+    font-weight:bold; color:red;
+}*/
+
+.colorpicker {
+    z-index: 101;
+}
+
+.roomwall-top {
+    border-top: 1px solid black;
+}
+
+.roomwall-left {
+    border-left: 1px solid black;
+}
+
+.roomwall-right {
+    border-right: 1px solid black;
+}
+
+.roomwall-bottom {
+    border-bottom: 1px solid black;
+}
+
+#areagrid td, #areagridedit td, #objectpreview table td {
+    width:30px;
+    height:30px;
+    text-align:center;
+    vertical-align:middle;
+    /*background-color:#ccc;*/
+    /*border:1px solid white;*/
+
+}
+
+
+
+#objectpreview table td {
+    background-color: black;
+}
+
+#areagrid td.highlighted, #areagridedit td.highlighted {
+    background-color:#999;
+}
+
+#areagrid td.hovering, #areagridedit td.hovering {
+    background-color:white;
+}
+
+.arealist, .campaignlist {
+	/*height: 43px;*/
+}
+
+.doorlist, .roomlist, .objectlist {
+    /*height: 24px;*/
+}
+
+.arealist li, .roomlist li, .campaignlist li, .actionpanelicons li, .doorlist li, .foundcharacterslist li, .objectlist li, .environmentlist li {
+	margin-right: 5px;
+	float:left;
+	text-decoration: none;
+	list-style: none;
+}
+
+.roomlist li, .doorlist li, .objectlist li, .environmentlist li {
+    margin-top: 5px;
+}
+
+.roomsInArea li, .charactersInRoom li {
+    /*width: 100%;*/
+    /*float:left;*/
+    /*margin-left: 20px;*/
+    /*text-decoration: none;*/
+    /*list-style: none;*/
+}
+
+.charactersInRoom li {
+    /*margin-left: 40px;*/
+}
+
+.roomsInArea li:hover, .charactersInRoom li:hover {
+
+}
+
+.hiddendialog, .hiddenlist {
+	display: none;
+}
+
+.actionpanel {
+/*	background-color: white;
+    border: 1px solid black;
+    height: 75px;*/
+}
+
+.actionpanelicons li {
+	font-size: 30px;
+}
+
+.campaigninlist {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+#areagrid {
+    /*background: url("../img/maptexture.png") no-repeat;*/
+    /*background-size: 100%;*/
+    /*width: 2000px;*/
+    /*height: 2000px;*/
+    top: 20%;
+    left: 10%;
+    border:none;
+    position: absolute;
+    width: 100%;
+}
+
+#areagrid td.door, #areagridedit td.door {
+    border-width: 2px;
+    border-color: black;
+}
+
+#areagrid td.doorlocked, #areagridedit td.doorlocked {
+    border-width: 4px;
+    border-color: black;
+}
+
+#areagrid td.doorhidden, #areagridedit td.doorhidden {
+    border-style: dashed;
+    border-color: black;
+}
+
+
+
+#areagrid td.doortop, #areagridedit td.doortop {
+    /*border-top: 2px black;*/
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#areagrid td.doorright, #areagridedit td.doorright {
+    /*border-right: 2px black;*/
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#areagrid td.doorleft, #areagridedit td.doorleft {
+    /*border-left: 2px black;*/
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#areagrid td.doorbottom, #areagridedit td.doorbottom {
+    /*border-bottom: 2px black;*/
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#areagrid table, #areagrid tbody, #areagrid tr {
+    width: auto;
+}
+
+#areagrid table {
+    table-layout: fixed;
+    /*width: 100%;*/
+    /*border: 2px solid;*/
+}
+
+.campaignbuttons {
+	margin-bottom: 20px;
+}
+
+.mainpanel {
+    background-color:white;
+    border: 1px solid lightgrey;
+    z-index: 1;
+}
+
+#initiativepanel {
+    background-color: white;
+}
+
+#actoractionpanel {
+    min-height: 1000px;
+    background-color: white;
+    /*overflow-y: scroll;*/
+    position:initial;
+    overflow-y: auto;
+    opacity: 0.7;
+}
+
+#mappanel {
+    z-index: -2;
+    position: relative;
+}
+
+#unassignedcharacters .menucharacter {
+    background-color:black;
+    color: white;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#unassignedcharacters {
+    position: initial;
+}
+
+.menucharacter {
+    height: 40px;
+    margin-bottom: 5px;    
+}
+
+.characterinmap {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 2px;
+    /* bottom: 0; */
+    left: 2px;
+    z-index: 0;
+}
+
+.characterrequestinmap {
+    background-color: darkred;
+    opacity: 0.4!important;
+}
+
+.creatureincampaign {
+    margin-bottom:5px;
+}
+
+.creatureinmap {
+    background-color: red;
+}
+
+.actualroom, .environment {
+    position: relative;
+}
+
+.customcursor {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="30" style="font-size: 20px;"><text y="15">¶</text></svg>'), auto;
+}
+
+#unassignedcharacters .selected {
+    cursor: 'crosshair';
+    background-color: lightgrey;
+}
+
+.activeroom {
+    /*filter: grayscale(0%);*/
+    filter: contrast(100%);
+    /*opacity: 1;*/
+}
+
+.historicroom {
+    filter: contrast(10%);
+    /*opacity: 0.5;*/
+}
+
+#addcreaturetext {
+    position: relative;
+}
+
+#addcreaturelist {
+    position: absolute;
+    min-width: 600px;
+    z-index: 9999;
+}
+
+.addcreature {
+    margin-right: 5px;
+    margin-bottom: 2px;
+    z-index: 9999;
+}
+
+.menucreature {
+    z-index: 9999;
+}
+
+#app {
+    min-height: 1000px;
+    overflow: hidden;
+    position: relative;
+    background-color: #eff3f9;
+    padding-bottom:20px;
+}
+
+.characterincampaign {
+    margin-bottom: 5px;
+}
+
+.infobox {
+    position: relative;
+    font-size:10px;
+    border: 1px solid black; 
+    /*width: 700px;*/
+}
+
+.infobox button {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+}
+
+#toggleactoractionpanel, #togglehelp {
+    height:34px;
+    position:relative;
+}
+
+#toggleactoractionpanel button, #togglehelp button {
+    position:absolute;
+    z-index: 9999;
+}
+
+.minorpanel {
+    background-color: lightgrey;
+}
+
+#toggleareapanels {
+    display: none;
+}
+
+
+
+.editgrid {
+    /*border: 1px solid!important;*/
+/*    top: 38%!important;
+    left: 0%!important;*/
+}
+
+#allcontainers {
+    position:relative;
+    z-index: 100;
+    background-color:#eff3f9;
+    border-bottom: 1px solid black;
+}
+
+.minorpanel {
+    display: none;
+}
+
+#toggleareapanels {
+    display: block;
+}
+
+.removecharacter {
+    margin-left:10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .actionpanel p {
+        display: none;
+    }
+
+    #campaigntitle {
+        display: none;
+    }
+
+
+}

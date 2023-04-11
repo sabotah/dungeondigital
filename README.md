@@ -4,6 +4,8 @@ This is the official open source GitHub repo for the official site: https://dung
 
 A very simple RPG Dungeon Builder and Campaign Manager, but object oriented and realtime multiplayer
 
+It's coded in Laravel 10 (recently upgraded from laravel 5, so forgive the occasional legacy coding structure)
+
 Current Functionality:
 
 DM can:

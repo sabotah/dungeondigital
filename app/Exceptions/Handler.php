@@ -71,7 +71,7 @@ class Handler extends ExceptionHandler
 
             Mail::to('sab@nic.id.au')->send(new ExceptionOccured($content));
         } catch (Exception $ex) {
-            dd($ex);
+            // dd($ex);
         }
     }
 }
